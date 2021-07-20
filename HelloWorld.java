@@ -1,3 +1,5 @@
+package IntroProg;
+
 import java.util.Scanner;
 
 class HelloWorld {
@@ -6,7 +8,8 @@ class HelloWorld {
         System.out.println("Enter your password");
 
         String password = in.nextLine();
-        if (password == password)
+        String confirm = in.nextLine();
+        if (password == confirm)
             System.out.println("Welcome aboard");
         
     }

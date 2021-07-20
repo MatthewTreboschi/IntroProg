@@ -1,3 +1,5 @@
+package IntroProg;
+
 import java.util.Scanner;
 
 class varrr {
