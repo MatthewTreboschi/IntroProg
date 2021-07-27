@@ -28,7 +28,7 @@ def options():
     if SpecialCharacters == "Y": 
         ret += chars3 
     
-    return ret
+    return [length,ret]
 
 
 
