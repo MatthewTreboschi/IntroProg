@@ -24,13 +24,13 @@ import math
 
 #def punct():
 
-lst1 = "abcdefghijklmnopqrstuvwxyz"
+#lst1 = "abcdefghijklmnopqrstuvwxyz"
 
-lst2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+#lst2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-lst3 = "0123456789"
+#lst3 = "0123456789"
 
-lst4 = "!@#$%^&*"
+#lst4 = "!@#$%^&*"
 
 
 #length = int(input("How long do you want your password to be?: "))
