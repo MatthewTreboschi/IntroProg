@@ -33,7 +33,7 @@ lst3 = "0123456789"
 lst4 = "!@#$%^&*"
 
 
-length = int(input("How long do you want your password to be?: "))
+#length = int(input("How long do you want your password to be?: "))
 
 lst = [length,lst2+lst3+lst1+lst4] 
 
