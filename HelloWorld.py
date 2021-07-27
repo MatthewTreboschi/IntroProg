@@ -1,5 +1,11 @@
+def login(name,password):
+    pass
+def register(name,password):
+    pass
 
-
-print("Hello!")
-x = input("Enter your name: ")
-print("This is adding quotes:" + x)
+def begin():
+    print("Welcome to Password Generator login")
+    option = input("login or registor (login,reg): ")
+    if(option!="login" and option!="reg"):
+        begin()
+begin()
