@@ -62,7 +62,7 @@ def genPass(lst):
 
     return ret
 
-genPass(lst)
+'''genPass(lst)
 print(genPass(lst))
 
 while True:
@@ -71,7 +71,7 @@ while True:
         genPass(lst)
         print(genPass(lst))
     elif passacc == "Yes":
-        break
+        break'''
 
 
 
