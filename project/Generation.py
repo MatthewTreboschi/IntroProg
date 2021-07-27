@@ -35,7 +35,7 @@ lst4 = "!@#$%^&*"
 
 #length = int(input("How long do you want your password to be?: "))
 
-lst = [length,lst2+lst3+lst1+lst4] 
+#lst = [length,lst2+lst3+lst1+lst4] 
 
 
 def genPass(lst):
