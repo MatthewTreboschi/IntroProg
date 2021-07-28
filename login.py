@@ -10,12 +10,12 @@ def begin():
         option = begin()
     return option
 opt = begin()
-def GetInfo():
+def GetInfo(opt):
     if(opt=="login"):
         name = input("Enter your name: ")
         password = input("Enter your password: ")
         login(name,password)
-    else: 
+    else:
         print("Enter your name and password to register")
         name = input("Enter your name: ")
         password = input("Enter your password: ")
