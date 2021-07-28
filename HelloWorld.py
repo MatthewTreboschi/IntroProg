@@ -1,7 +1,7 @@
 def login(name,password):
-    pass
+    print ("logged in")
 def register(name,password):
-    pass
+    print ("registered")
 
 def begin():
     print("Welcome to Password Generator login")
@@ -10,11 +10,13 @@ def begin():
         option = begin()
     return option
 opt = begin()
-if(opt=="login"):
-    name = input("Enter your name: ")
-    password = input("Enter your password: ")
-    login(name,password)
-else: 
-    print("Enter your name and password to register")
-    name = input("Enter your name: ")
-    password = input("Enter your password: ")
+def GetInfo():
+    if(opt=="login"):
+        name = input("Enter your name: ")
+        password = input("Enter your password: ")
+        login(name,password)
+    else: 
+        print("Enter your name and password to register")
+        name = input("Enter your name: ")
+        password = input("Enter your password: ")
+        register(name,password)
