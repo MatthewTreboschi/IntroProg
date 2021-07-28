@@ -9,7 +9,7 @@ def begin():
     if(option!="login" and option!="reg"):
         option = begin()
     return option
-opt = begin()
+#opt = begin()
 def GetInfo(opt):
     if(opt=="login"):
         name = input("Enter your name: ")
