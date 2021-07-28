@@ -1,5 +1,5 @@
 from Generation import genPass
-
+from login import *
 from options import options
 
 opt = begin()
