@@ -20,3 +20,8 @@ def GetInfo(opt):
         name = input("Enter your name: ")
         password = input("Enter your password: ")
         register(name,password)
+    file.close()
+    if(success):
+        print("Login Successful!!!")
+    else:
+        print("Wrong Username or password")
