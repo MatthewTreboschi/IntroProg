@@ -14,3 +14,7 @@ if(opt=="login"):
     name = input("Enter your name: ")
     password = input("Enter your password: ")
     login(name,password)
+else: 
+    print("Enter your name and password to register")
+    name = input("Enter your name: ")
+    password = input("Enter your password: ")
